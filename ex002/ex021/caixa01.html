@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixas</title>
+    <style>
+        h1{
+            background-color: hotpink;
+            height: 300px;
+            width: 300px;
+            border: solid 10px indigo;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow:5px 5px 30px 3px hotpink; 
+            padding: 10px 10px 10px 10px;
+            margin: auto;
+            margin-bottom: 30px;
+            outline:dashed orangered 4px ;           
+        }
+        h1:hover{
+           background-color: indigo;
+            height:  300px;
+            width: 300px;
+            border: hotpink solid 10px ;           
+            border-radius: 20px;
+            
+            text-align: center;
+            box-shadow:5px 5px 30px 3px indigo;
+            color: whitesmoke;
+        }
+        a{
+            border-width: 4px;
+            border-style: solid;
+            border-color: indigo;
+            border-radius: 5px;
+            
+            padding: 3px;
+            background-color: hotpink;
+            box-shadow:2px 2px 20px 1px hotpink;
+            color: black;
+            text-decoration: none;
+           
+
+        }
+        a:hover{
+            border-width: 4px;
+            border-style: solid;
+            border-color: hotpink;
+            border-radius: 5px;
+            
+            padding: 3px;
+            
+            background-color: indigo;
+            box-shadow:2px 2px 20px 1px indigo;
+            color: whitesmoke;
+        }
+        a:active{
+            color:turquoise;
+        }
+        p{
+            text-indent: 30px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>EX. Box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="a">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

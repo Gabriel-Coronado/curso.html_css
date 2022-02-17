@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: #40d42d91;
+    background-image: linear-gradient(to top,#1d7411,#40d42d91,#82ca0d,#dde0e95b );
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(29, 116, 17) ;
+    text-shadow:1px 3px 7px rgb(29, 116, 17) ;
+    
+}
+h1#principal{
+    text-align: center;
+    background-color: #1d7411;
+    text-shadow: 1px 2px 3px rgba(229, 255, 0, 0.589);
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px rgb(29, 116, 17);
+    background-image: linear-gradient(to left,#1d7411,#40d42d91,#82ca0d,#dde0e9d3 );
+}
+h2{
+    color: #19660fe7;
+    text-indent: 25px;
+    text-shadow:1px 3px 7px rgb(29, 116, 17) ;
+}
+.intermed{
+    color: rgba(229, 255, 0, 0.952);
+}
+.avancado{
+    color: rgba(247, 21, 21, 0.911);
+    text-shadow: 3px 3px 7px rgb(85, 248, 99);
+}
+p{
+    text-indent: 35px;
+}

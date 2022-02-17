@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgba(0, 0, 255, 0.76)
+}
+header{
+    text-align: center;
+    color: rgba(245, 245, 245, 0.842);
+    text-shadow:8px 8px 8px rgba(0, 0, 0, 0.541);
+}
+body{
+    border-radius: 15px;
+    padding: 10px;
+    width: 700px;
+    color: rgba(245, 245, 245, 0.842);
+    text-align: center;
+    text-shadow:8px 8px 8px rgba(0, 0, 0, 0.644);
+
+}
+footer{
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    padding: 10px;
+    width: 700px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.486);
+    text-align: center;
+}

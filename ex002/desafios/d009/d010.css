@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(3, 15, 5)
+}
+header{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.842);   
+}
+body{
+    border-radius: 150px;
+    padding: 10px;
+    width: 700px;
+    color: rgba(43, 238, 25, 0.822);
+    text-align: center;
+    text-shadow:4px 4px 4px rgba(5, 158, 196, 0.993);
+    padding: 10px;
+}
