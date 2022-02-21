@@ -16,58 +16,65 @@
 body{
     text-align: center;
     font-family: sans-serif;
-    background-image: linear-gradient(to right,#6D90A6 ,#033540e3 );
+    background-image: url('Imagens/wallpaper005.jpg');
 }
 header{
     font-family:'Gelio';
     color: #e8eff8;
     text-shadow: 1px 1px 0px white;
-    background-image: linear-gradient(to right,#f2f2f25e, #07668c 30%,#03354000, #f2f2f252 );
-    border-radius: 10px 10px 10px 10px ;
+    background-image: linear-gradient(to right,#f2f2f200,#03546659,#03354000 );
+    border-radius: 0px 0px 10px 10px ;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.897) ;
     padding: 10px;
-    height: 200px;
+    height: 220px;
 }
     
 h1 {
     font-size: 5em;
     width: 100%;
-    font-size: 60px;
-    color: white;
+    font-size: 150px;
+    margin-top: 15px;
+    color: #07668c8a;
     font-family: var(--font-destaque);
     font-weight: normal;
+    text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.37);
     }
-nav{
-    background-image: linear-gradient(to right,#6D90A6,#07668C,#033540 );
-    width: 240px;
-    padding: 12px;
+header > nav{
+    background-image: linear-gradient(to right,#6d90a67c,#07668c6b,#03354073 );
+    margin-top: 5px;
+    width: 400px;
+    padding: 8px;
     border-radius: 10px;
-    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.89);
+    text-shadow: 0px 0px 2px #F2F2F2;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.89);
 }
 #cabeçalho{
+    font-size: 30px;
     color: #F2F2F2;
     text-decoration: none;
     padding: 5px;
 }
 #cabeçalho:hover{
-    background-color: #024059;
-    color: #F2F2F2;
+    background-color: #076e977c;
+    color: #0d194e;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.89);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.89);
+    text-shadow: 1px 1px 0px #0d194e;
 }
 main{
-    color: #F2F2F2;
-    background-color: #07668C;
-    background-image: linear-gradient(to right,#07668ccb,#033540bb );
+    color: #26305f;
+    text-shadow: 1px 1px 1px #26305f;
+    background-image: linear-gradient(to right,#07668c93,#03354079 );
     height: 800px;
     padding: 10px;
-    margin: 40px;
+    margin: 0px 40px 40px 40px ;
     border-radius: 10px;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.89);
-    text-shadow: 0px 1px 1px #F2F2F2;
+
 }
+
 article{
-    background-image: linear-gradient(to right,#6d90a6c7,#07668C,#03354071 );
+    background-image: url('Imagens/wallpaper004.jpg');
     text-align: justify;
     text-indent: 30px;
     height: 350px;
@@ -80,21 +87,27 @@ article{
     text-align: right;
 }
 article > aside{
-    background-color: #0240599a;
-    border-radius: 10px;
+
     padding: 5px;
     margin: 10px;
-    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.89);
+
 }
-#links{
-    color:#F2F2F2 ;
+.links{
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #26305f;
     text-decoration: none;
+    background-color: #0d194e;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459);
 }
-#links:hover{
-    color:royalblue;
+.links:hover{
+    text-decoration: underline;
+   color: #076e97;
+   background-color: rgba(255, 255, 255, 0);
 }
 footer{
-    background-image: linear-gradient(to right,#6D90A6,#07668C,#033540 );
+    background-image: linear-gradient(to right,#6d90a694,#07668c85,#03354073 );
     color: white;
     text-align: center;
     padding: 1px;
