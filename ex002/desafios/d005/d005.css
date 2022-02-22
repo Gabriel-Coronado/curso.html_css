@@ -19,10 +19,13 @@ body{
     text-shadow:8px 8px 8px rgba(0, 0, 0, 0.644);
 }
 body > p{
-    color: black;
+    color: rgba(0, 0, 0, 0.705);
+}
+body > img{
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.521);
 }
 footer{
-    background-color: cornflowerblue;
+    background-color: rgba(100, 148, 237, 0.596);
     border-radius: 15px;
     padding: 10px;
     width: 700px;
