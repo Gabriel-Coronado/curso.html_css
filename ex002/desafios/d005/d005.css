@@ -1,6 +1,9 @@
-
 body{
-    background-color: rgba(0, 0, 255, 0.76)
+    background-image: url('wallpaper002.jpg');
+}
+body>img{
+    border-radius: 100px;
+    margin: 50px;
 }
 header{
     text-align: center;
@@ -14,7 +17,9 @@ body{
     color: rgba(245, 245, 245, 0.842);
     text-align: center;
     text-shadow:8px 8px 8px rgba(0, 0, 0, 0.644);
-
+}
+body > p{
+    color: black;
 }
 footer{
     background-color: cornflowerblue;

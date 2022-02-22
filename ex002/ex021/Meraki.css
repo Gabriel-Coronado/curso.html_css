@@ -42,7 +42,7 @@ h1 {
 header > nav{
     background-image: linear-gradient(to right,#6d90a67c,#07668c6b,#03354073 );
     margin-top: 5px;
-    width: 400px;
+    width: 500px;
     padding: 8px;
     border-radius: 10px;
     text-shadow: 0px 0px 2px #F2F2F2;
@@ -72,7 +72,6 @@ main{
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.89);
 
 }
-
 article{
     background-image: url('Imagens/wallpaper004.jpg');
     text-align: justify;
@@ -92,6 +91,13 @@ article > aside{
     margin: 10px;
 
 }
+aside > h2{
+    text-indent: 15px;
+    padding: 8px;
+    width: 100%;
+    background-image: linear-gradient(to right,#07668c93, rgba(255, 255, 255, 0) );
+    
+}
 .links{
     color: whitesmoke;
     text-shadow: 1px 1px 1px #26305f;
@@ -108,11 +114,15 @@ article > aside{
 }
 footer{
     background-image: linear-gradient(to right,#6d90a694,#07668c85,#03354073 );
-    color: white;
-    text-align: center;
+    color: whitesmoke;
+    text-align: left;
     padding: 1px;
     margin: 10px;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.925);
-    text-shadow: 0px 1px 1px #F2F2F2;
+    text-shadow: 0px 1px 1px #f2f2f271;
+}
+footer > ul{
+    margin: 20px;
 }
