@@ -65,28 +65,40 @@ main{
     color: #26305f;
     text-shadow: 1px 1px 1px #26305f;
     background-image: linear-gradient(to right,#07668c93,#03354079 );
-    height: 800px;
+    min-height: 800px;
+    min-width: 280px;
+    max-width: 1500px;
     padding: 10px;
     margin: 0px 40px 40px 40px ;
     border-radius: 10px;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.89);
 
 }
-article{
-    background-image: url('Imagens/wallpaper004.jpg');
-    text-align: justify;
+article#q1{
+    background-image: url('Imagens/grecia_g.png');    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
     text-indent: 30px;
+    min-height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.89);
+}
+
+article#q2{
     height: 350px;
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.89);
 }
-#autor{
-    text-align: right;
-}
-article > aside{
 
+article > aside{
+    text-align: justify;
+    background-color: rgba(245, 245, 245, 0.61);
+    border-radius: 10px;
     padding: 5px;
     margin: 10px;
 
@@ -94,8 +106,9 @@ article > aside{
 aside > h2{
     text-indent: 15px;
     padding: 8px;
+    border-radius: 15px;
     width: 100%;
-    background-image: linear-gradient(to right,#07668c93, rgba(255, 255, 255, 0) );
+    background-image: linear-gradient(to right,#07668c93, rgba(255, 255, 255, 0));
     
 }
 .links{
