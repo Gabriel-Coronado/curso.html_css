@@ -70,30 +70,33 @@ main{
     max-width: 1500px;
     padding: 10px;
     margin: 0px 40px 40px 40px ;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.89);
 
 }
-article#q1{
+#noticias{
+    position: relative;
+    background-size: 100% 100%;
+    max-width: 1400px;
+    height: 95vh;
+    padding: 10px;
+}
+#q1{
     background-image: url('Imagens/grecia_g.png');    
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top right;
+    position: absolute;
     text-indent: 30px;
-    min-height: 350px;
+    height: 95vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     padding: 15px;
     border-radius: 10px;
-    margin: 10px;
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.89);
 }
 
-article#q2{
-    height: 350px;
-    padding: 15px;
-    border-radius: 10px;
-    margin: 10px;
-    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.89);
-}
 
 article > aside{
     text-align: justify;
