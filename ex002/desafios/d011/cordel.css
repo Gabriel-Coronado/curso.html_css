@@ -13,6 +13,7 @@
 body{
     background-color: black;
     margin: 0px;
+    min-height: 100%;
 }
 header{
     color: whitesmoke;
@@ -21,9 +22,10 @@ header{
     padding: 20px;
 }
 h1{
+    font-variant: small-caps;
     font-family: 'Passion';
     font-weight: bold;
-    font-size: 76px ;
+    font-size: 10vw ;
     margin-bottom: 5px;
 }
 h2{
@@ -32,17 +34,28 @@ h2{
     font-size: 16px;
     margin-top: 2px;
 }
+/* 
+ link autor do cordel
+*/
 h2 > #milton{
     font-weight: bold;
     text-decoration: none;
     color: white;
 }
 #milton:hover{
-    color: black;
     background-color: rgba(245, 245, 245, 0.932);
     border-radius: 5px;
     padding: 2px;
+    color: black;
+    transition-duration: 1.15s;
 }
+div{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+/* 
+ imagem joaninha
+*/
 #m1{
     font-family: 'Sriracha';
     background: url('imagens/background001.jpg') center center no-repeat  fixed;
@@ -50,6 +63,9 @@ h2 > #milton{
     font-size: 16px;
     margin-bottom: -50px;
 }
+/* 
+ imagem livro
+*/
 #m2{
     font-family: 'Sriracha';
     font-size: 16px;
@@ -57,25 +73,32 @@ h2 > #milton{
     background-size: cover;
     margin-top: 0px;
 }
+/* 
+ conteúdo fundo branco
+*/
 .d1{
-    line-height: 50px;
-    padding: 50px 10px 70px 45px;
-    font-size: 26px;
+    line-height: 2em;
+    font-size: 5vw;
     background-color: white;
     box-shadow: 1px 1px 30px black;
+    padding-left: 40px;
 
 }
-
+/*
+ conteúdo fundo imagem
+*/
 .d2{
-    line-height: 50px;
-    padding: 1px 5px 5px 5px;
-    font-size: 26px;
+    line-height:2em;
+    font-size: 5vw;
     color: white;
     background-color: rgba(0, 0, 0, 0.342);
     margin: 50px 10px 70px 40px;
-    width: 300px;
+    min-width: 300px;
+    max-width: 800px;
 }
-
+/*
+ rodapé
+*/
 footer{
     text-align: center;
     color: white;
@@ -84,11 +107,18 @@ footer{
     font-size: 16px;
     background-color: black;
 }
+/*
+ link GitHub
+*/
 #gcp{
     font-weight: bold;
     text-decoration: none;
     color: white;
 }
 #gcp:hover{
-    text-decoration: underline;
+    background-color: rgba(245, 245, 245, 0.932);
+    border-radius: 5px;
+    padding: 2px;
+    color: black;
+    transition-duration: 1.15s;
 }
