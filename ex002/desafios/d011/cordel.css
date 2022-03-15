@@ -60,7 +60,6 @@ div{
     font-family: 'Sriracha';
     background: url('imagens/background001.jpg') center center no-repeat  fixed;
     background-size: cover;
-    background-position: right center;
     font-size: 3.5vw;
     margin-bottom: -50px;
 }
