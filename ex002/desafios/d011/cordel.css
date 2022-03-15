@@ -62,6 +62,8 @@ div{
     background-size: cover;
     font-size: 10vw;
     margin-bottom: -50px;
+    box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.534);
+
 }
 /* 
  imagem livro
