@@ -60,7 +60,8 @@ div{
     font-family: 'Sriracha';
     background: url('imagens/background001.jpg') center center no-repeat  fixed;
     background-size: cover;
-    font-size: 16px;
+    background-position: right center;
+    font-size: 3.5vw;
     margin-bottom: -50px;
 }
 /* 
@@ -68,10 +69,11 @@ div{
 */
 #m2{
     font-family: 'Sriracha';
-    font-size: 16px;
+    font-size: 10vw;
     background: url('imagens/background002.jpg') center center no-repeat fixed;
     background-size: cover;
     margin-top: 0px;
+    box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.534);
 }
 /* 
  conteúdo fundo branco
@@ -80,21 +82,22 @@ div{
     line-height: 2em;
     font-size: 5vw;
     background-color: white;
-    box-shadow: 1px 1px 30px black;
     padding-left: 40px;
-
-}
+    }
 /*
  conteúdo fundo imagem
 */
 .d2{
+    display: inline-block;
+    padding: 5px;
     line-height:2em;
     font-size: 5vw;
     color: white;
+    text-shadow: 1px 1px 0px black;
     background-color: rgba(0, 0, 0, 0.342);
     margin: 50px 10px 70px 40px;
     min-width: 300px;
-    max-width: 800px;
+    max-width: 800px ;
 }
 /*
  rodapé
